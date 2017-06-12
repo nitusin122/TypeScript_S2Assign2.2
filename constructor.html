@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Constructor Assignment</title>
+    <script type="text/javascript" src="constructor.js"></script>
+</head>
+<body>
+    <div id="resultDiv"></div>
+    <script type="text/javascript">
+        var firstNewVehicle = new Vehicle(2, "Activa 4G");
+        //Get Vehicle Details
+        myVehicle = firstNewVehicle.getVehicle();
+        document.getElementById('resultDiv').innerHTML = myVehicle.toString();
+    </script>
+</body>
+</html>
